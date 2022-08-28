@@ -12,20 +12,26 @@ const {
     click,
     checkBox,
     listItem,
+    waitFor,
     toLeftOf,
     link,
     text,
     into,
     textBox,
     image,
+    goBack,
+    setConfig,
     button,
+    querySelector,
     evaluate
 } = require('taiko');
 const assert = require("assert");
 const { Console } = require('console');
 const headless = process.env.headless_chrome.toLowerCase() === 'true';
+const endpoint = process.env.production_endpoint;
 
 beforeSuite(async () => {
+
     await openBrowser({
         headless: headless
     })
@@ -46,41 +52,29 @@ gauge.customScreenshotWriter = async function () {
     return path.basename(screenshotFilePath);
 };
 
-step("Add task <item>", async (item) => {
-    await write(item, into(textBox("What needs to be done?")));
+step("Add search <item>", async (item) => {
+    console.log("Typing search " + item)
+    await write(item, into(textBox("Search use cases...")));
     await press('Enter');
 });
 
-step("View <type> tasks", async function (type) {
-    await click(link(type));
+step("Click <message>", async function (message) {
+        await click(message);
 });
 
-step("Complete tasks <table>", async function (table) {
-    for (var row of table.rows) {
-        await click(checkBox(toLeftOf(row.cells[0])));
-    }
+step("GoBack", async function () {
+    await goBack();
 });
 
-step("Clear all tasks", async function () {
-    await evaluate(() => localStorage.clear());
-});
-
-step("Open todo application", async function () {
-    await goto("todo.taiko.dev");
-});
-
-step("Open Web application", async function () {
-    await goto("https://mop-code-webapp-e5xbpzcnea-ts.a.run.app/");
+step("Open Web application",  function () {
+     goto(endpoint);
 });
 
 step("Must not have <table>", async function (table) {
     for (var row of table.rows) {
+        console.log("Verifing use case " + row.cells[0] + " don't exists")
         assert.ok(!await text(row.cells[0]).exists(0, 0));
     }
-});
-
-step("Confirm item in navigation bar <message>", async function (message) {
-        assert.ok(await text(message.toString()).exists(0, 0));
 });
 
 step("Confirm items in navigation bar <table>", async function (table) {
@@ -100,25 +94,26 @@ step("Confirm button in navigation bar <message>", async function (message) {
         assert.ok(await link({href:message}).exists(0, 0));
 });
 
-step("Confirm search bar"), async function(){
-    await evaluate($("/html/body/div[3]/section[2]/div[1]/div/input"), (element, args) =>{
-        element.querySelector(args[0]).innerText = 'Search use cases...';
-    })
-}
-
 step("Must display <message>", async function (message) {
     assert.ok(await text(message).exists(0, 0));
 });
 
-step("Add tasks <table>", async function (table) {
+step("Must have Use cases <table>", async function (table) {
     for (var row of table.rows) {
-        await write(row.cells[0]);
-        await press('Enter');
+        console.log("Verifying use case " + row.cells[0] + " exists")
+        assert.ok(await text(row.cells[0]).exists());
     }
-});
+}); 
 
 step("Must have <table>", async function (table) {
     for (var row of table.rows) {
+        console.log("Verifying element " + row.cells[0] + " exists") 
         assert.ok(await text(row.cells[0]).exists());
     }
+});
+
+step('Wait for <time> second', async (time) => { 
+    console.log("Waiting for " + time + " Seconds") 
+    let ms = time * 1000
+    await waitFor(ms);
 });

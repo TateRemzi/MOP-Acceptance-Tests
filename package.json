@@ -3,7 +3,7 @@
   "description": "Starter template for writing JavaScript tests for Gauge",
   "scripts": {
     "start": "gauge run specs/",
-    "test":"gauge run specs/main.spec"
+    "test":"gauge run specs/"
   },
   "dependencies": {
     "taiko": "latest"
