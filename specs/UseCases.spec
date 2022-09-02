@@ -9,6 +9,7 @@ Doesn't have a navigation bar
 
 * Open Web application
 * Click "Spot Parking Problem"
+* Wait for "3" second
 * Must have 
    |description|
    |-----------|
@@ -21,6 +22,7 @@ Doesn't have a navigation bar
 
 * Open Web application
 * Click "New Business Location"
+* Wait for "3" second
 * Confirm items in navigation bar
 
    |description|
@@ -45,6 +47,7 @@ Doesn't have a navigation bar
 
 * Open Web application
 * Click "Pedestrian Traffic Analysis"
+* Wait for "3" second
 * Confirm items in navigation bar
 
    |description|
@@ -68,6 +71,7 @@ Doesn't have a navigation bar
 
 * Open Web application
 * Click "Parking Availability"
+* Wait for "3" second
 * Confirm items in navigation bar
 
    |description|
@@ -94,6 +98,7 @@ Doesn't have a navigation bar
 
 * Open Web application
 * Click "Melbourne Bicycle Network Routes and Road Safety Part 1"
+* Wait for "3" second
 * Confirm items in navigation bar
 
    |description|
@@ -131,6 +136,7 @@ Confirm items in navigation bar
 
 * Open Web application
 * Click "Ideal Green Wall Locations"
+* Wait for "3" second
 * Confirm items in navigation bar
 
    |description|
