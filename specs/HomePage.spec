@@ -8,7 +8,7 @@ This step to load the web application
 ## Verify main page
 
 * Open Web application
-* Wait for "5" second
+* Wait for "10" second
 
 * Confirm image in navigation bar "/static/images/moplogo.png"
 * Confirm image in navigation bar "/static/City_Of_Melbourne_Logo.png"
@@ -34,6 +34,7 @@ This step to load the web application
     |Melbourne Bicycle Network Routes and Road Safety Part 1|
     |Melbourne Bicycle Network Routes and Road Safety Part 2|
     |Ideal Green Wall Locations |
+    | |
 
 * Add search "ped"
 * Wait for "3" second
