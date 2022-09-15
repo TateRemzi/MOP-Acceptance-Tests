@@ -28,7 +28,7 @@ const {
 const assert = require("assert");
 const { Console } = require('console');
 const headless = process.env.headless_chrome.toLowerCase() === 'true';
-const endpoint = process.env.production_endpoint;
+const endpoint = process.env.staging_endpoint;
 
 beforeSuite(async () => {
 
@@ -67,6 +67,7 @@ step("GoBack", async function () {
 });
 
 step("Open Web application",  function () {
+    console.log("Open "+ endpoint)
      goto(endpoint);
 });
 
