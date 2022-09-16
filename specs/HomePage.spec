@@ -36,7 +36,7 @@ This step to load the web application
     |Ideal Green Wall Locations |
     | |
 
-* Add search "ped"
+* Add search "a"
 * Wait for "3" second
 * Must have Use cases
 
