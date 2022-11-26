@@ -155,3 +155,76 @@ Confirm items in navigation bar
    |-----------|
    |Ideal Green Wall|
    |Scenario   |
+
+
+## Verify use case "Event Impacts and Effects on Pedestrian Traffic"
+
+* Open Web application
+* Click "Event Impacts and Effects on Pedestrian Traffic"
+* Wait for "3" second
+* Confirm items in navigation bar
+
+   |description|
+   |-----------|
+   |Home       |
+   |About      |
+   |FAQ        |
+   |Contact    |
+   
+* Confirm image in navigation bar "/static/images/moplogo.png"
+* Confirm image in navigation bar "/static/City_Of_Melbourne_Logo.png"
+* Confirm button in navigation bar "https://github.com/D2I-Melbourne/MOP"
+
+* Must have 
+   |description|
+   |-----------|
+   |Event Impacts and Effects on Pedestrian Traffic|
+   |Scenario   |
+
+## Verify use case "Pedestrian Network Routes and Road Safety: Part 1"
+
+* Open Web application
+* Click "Pedestrian Network Routes and Road Safety: Part 1"
+* Wait for "3" second
+* Confirm items in navigation bar
+
+   |description|
+   |-----------|
+   |Home       |
+   |About      |
+   |FAQ        |
+   |Contact    |
+   
+* Confirm image in navigation bar "/static/images/moplogo.png"
+* Confirm image in navigation bar "/static/City_Of_Melbourne_Logo.png"
+* Confirm button in navigation bar "https://github.com/D2I-Melbourne/MOP"
+
+* Must have 
+   |description|
+   |-----------|
+   |Pedestrian Network Routes and Road Safety: Part 1|
+   |Scenario   |
+
+## Verify use case "Ideal Green Roof Locations"
+
+* Open Web application
+* Click "Ideal Green Roof Locations"
+* Wait for "3" second
+* Confirm items in navigation bar
+
+   |description|
+   |-----------|
+   |Home       |
+   |About      |
+   |FAQ        |
+   |Contact    |
+   
+* Confirm image in navigation bar "/static/images/moplogo.png"
+* Confirm image in navigation bar "/static/City_Of_Melbourne_Logo.png"
+* Confirm button in navigation bar "https://github.com/D2I-Melbourne/MOP"
+
+* Must have 
+   |description|
+   |-----------|
+   |Ideal Green Roof Locations|
+   |Scenario   |

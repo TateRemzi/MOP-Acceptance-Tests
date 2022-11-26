@@ -34,7 +34,9 @@ This step to load the web application
     |Bicycle Network Routes and Road Safety Part 1|
     |Bicycle Network Routes and Road Safety Part 2|
     |Ideal Green Wall Locations |
-    | |
+    |Event Impacts and Effects on Pedestrian Traffic|
+    |Pedestrian Network Routes and Road Safety: Part 1|
+    |Ideal Green Roof Locations|
 
 * Add search "ped"
 * Wait for "3" second
