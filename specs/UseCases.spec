@@ -94,10 +94,10 @@ Doesn't have a navigation bar
     |Step 3   |
    
 
-## Verify use case "Melbourne Bicycle Network Routes and Road Safety Part 1"
+## Verify use case "Bicycle Network Routes and Road Safety Part 1"
 
 * Open Web application
-* Click "Melbourne Bicycle Network Routes and Road Safety Part 1"
+* Click "Bicycle Network Routes and Road Safety Part 1"
 * Wait for "3" second
 * Confirm items in navigation bar
 
@@ -115,13 +115,13 @@ Doesn't have a navigation bar
 * Must have 
    |description|
    |-----------|
-   |Melbourne Bicycle Network Routes and Road Safety|
+   |Bicycle Network Routes and Road Safety|
    |Scenario   |
 
-Verify use case "Melbourne Bicycle Network Routes and Road Safety Part 2"
+Verify use case "Bicycle Network Routes and Road Safety Part 2"
 Tags: Broken
 Open Web application
-Click "Melbourne Bicycle Network Routes and Road Safety Part 2"
+Click "Bicycle Network Routes and Road Safety Part 2"
 Confirm items in navigation bar
 
    

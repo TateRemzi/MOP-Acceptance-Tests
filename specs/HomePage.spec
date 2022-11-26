@@ -31,8 +31,8 @@ This step to load the web application
     |Spot Parking Problem |
     |Pedestrian Traffic Analysis |
     |Parking Availability    |
-    |Melbourne Bicycle Network Routes and Road Safety Part 1|
-    |Melbourne Bicycle Network Routes and Road Safety Part 2|
+    |Bicycle Network Routes and Road Safety Part 1|
+    |Bicycle Network Routes and Road Safety Part 2|
     |Ideal Green Wall Locations |
     | |
 
