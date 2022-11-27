@@ -181,10 +181,10 @@ Confirm items in navigation bar
    |Event Impacts and Effects on Pedestrian Traffic|
    |Scenario   |
 
-## Verify use case "Pedestrian Network Routes and Road Safety: Part 1"
+## Verify use case "Pedestrian Network Routes and Road Safety Part 1"
 
 * Open Web application
-* Click "Pedestrian Network Routes and Road Safety: Part 1"
+* Click "Pedestrian Network Routes and Road Safety Part 1"
 * Wait for "3" second
 * Confirm items in navigation bar
 
