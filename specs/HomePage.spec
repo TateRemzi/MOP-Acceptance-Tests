@@ -31,25 +31,3 @@ This step to load the web application
     |Spot Parking Problem |
     |Pedestrian Traffic Analysis |
     |Parking Availability    |
-    |Bicycle Network Routes and Road Safety Part 1|
-    |Bicycle Network Routes and Road Safety Part 2|
-    |Ideal Green Wall Locations |
-    |Event Impacts and Effects on Pedestrian Traffic|
-    |Pedestrian Network Routes and Road Safety Part 1|
-    |Ideal Green Roof Locations|
-
-* Add search "ped"
-* Wait for "3" second
-* Must have Use cases
-
-    |description|
-    |-----------|
-    |Pedestrian |
-
-* Must not have
-    |description|
-    |-----------|
-    |Spot Parking Problem |
-    |Parking Availability    |
-    |Melbourne Bicycle Network |
-    |Ideal Green Wall Locations |
