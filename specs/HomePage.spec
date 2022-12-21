@@ -1,9 +1,7 @@
 # Main webApp tests
 
 A test suite to confirm the web application works as expected
-
 This step to load the web application
-
 
 ## Verify main page
 

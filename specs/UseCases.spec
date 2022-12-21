@@ -8,6 +8,8 @@ If there is an issue with loading the use case, the verfication of element on th
 Doesn't have a navigation bar
 
 * Open Web application
+* Click "Show more ↓"
+* Wait for "2" second
 * Click "Spot Parking Problem"
 * Wait for "3" second
 * Must have 
@@ -21,6 +23,8 @@ Doesn't have a navigation bar
 ## Verify use case "New Business Location"
 
 * Open Web application
+* Click "Show more ↓"
+* Wait for "2" second
 * Click "New Business Location"
 * Wait for "3" second
 * Confirm items in navigation bar
@@ -46,6 +50,8 @@ Doesn't have a navigation bar
 ## Verify use case "Pedestrian Traffic Analysis"
 
 * Open Web application
+* Click "Show more ↓"
+* Wait for "2" second
 * Click "Pedestrian Traffic Analysis"
 * Wait for "3" second
 * Confirm items in navigation bar
@@ -70,6 +76,8 @@ Doesn't have a navigation bar
 ## Verify use case "Parking Availability"
 
 * Open Web application
+* Click "Show more ↓"
+* Wait for "2" second
 * Click "Parking Availability"
 * Wait for "3" second
 * Confirm items in navigation bar
@@ -97,6 +105,8 @@ Doesn't have a navigation bar
 ## Verify use case "Bicycle Network Routes and Road Safety Part 1"
 
 * Open Web application
+* Click "Show more ↓"
+* Wait for "2" second
 * Click "Bicycle Network Routes and Road Safety Part 1"
 * Wait for "3" second
 * Confirm items in navigation bar
@@ -121,6 +131,8 @@ Doesn't have a navigation bar
 Verify use case "Bicycle Network Routes and Road Safety Part 2"
 Tags: Broken
 Open Web application
+Click "Show more ↓"
+Wait for "2" second
 Click "Bicycle Network Routes and Road Safety Part 2"
 Confirm items in navigation bar
 
@@ -135,6 +147,8 @@ Confirm items in navigation bar
 ## Verify use case "Ideal Green Wall Locations"
 
 * Open Web application
+* Click "Show more ↓"
+* Wait for "2" second
 * Click "Ideal Green Wall Locations"
 * Wait for "3" second
 * Confirm items in navigation bar
@@ -160,6 +174,8 @@ Confirm items in navigation bar
 ## Verify use case "Event Impacts and Effects on Pedestrian Traffic"
 
 * Open Web application
+* Click "Show more ↓"
+* Wait for "2" second
 * Click "Event Impacts and Effects on Pedestrian Traffic"
 * Wait for "3" second
 * Confirm items in navigation bar
@@ -184,6 +200,8 @@ Confirm items in navigation bar
 ## Verify use case "Pedestrian Network Routes and Road Safety Part 1"
 
 * Open Web application
+* Click "Show more ↓"
+* Wait for "2" second
 * Click "Pedestrian Network Routes and Road Safety Part 1"
 * Wait for "3" second
 * Confirm items in navigation bar
@@ -208,6 +226,8 @@ Confirm items in navigation bar
 ## Verify use case "Ideal Green Roof Locations"
 
 * Open Web application
+* Click "Show more ↓"
+* Wait for "2" second
 * Click "Ideal Green Roof Locations"
 * Wait for "3" second
 * Confirm items in navigation bar
